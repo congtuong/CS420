@@ -1,0 +1,13 @@
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/index.html
+Requirement already satisfied: mmcv-full in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (1.7.2)
+Requirement already satisfied: addict in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (2.4.0)
+Requirement already satisfied: numpy in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (1.24.3)
+Requirement already satisfied: packaging in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (23.2)
+Requirement already satisfied: Pillow in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (10.2.0)
+Requirement already satisfied: pyyaml in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (6.0.1)
+Requirement already satisfied: yapf in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (0.40.2)
+Requirement already satisfied: opencv-python>=3 in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from mmcv-full) (4.9.0.80)
+Requirement already satisfied: importlib-metadata>=6.6.0 in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from yapf->mmcv-full) (7.0.1)
+Requirement already satisfied: platformdirs>=3.5.1 in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from yapf->mmcv-full) (4.2.0)
+Requirement already satisfied: tomli>=2.0.1 in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from yapf->mmcv-full) (2.0.1)
+Requirement already satisfied: zipp>=0.5 in /root/miniconda3/envs/openmmlab/lib/python3.8/site-packages (from importlib-metadata>=6.6.0->yapf->mmcv-full) (3.17.0)
